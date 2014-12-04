@@ -1,0 +1,16 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	font-family: "Times New Roman", Times, serif;
+	background-color: #CCC;
+}
+.wrapper {
+	background-color: #FFF;
+	width: 950px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	padding-top: 0px;
+}
