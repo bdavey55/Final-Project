@@ -8,6 +8,12 @@
 <!-- TemplateBeginEditable name="head" -->
 <!-- TemplateEndEditable -->
 <link href="../styles.css" rel="stylesheet" type="text/css" />
+<!-- TemplateParam name="If What Defines a Cult?" type="boolean" value="false" -->
+<!-- TemplateParam name="If Different Types of Cults" type="boolean" value="false" -->
+<!-- TemplateParam name="If Media Portrayal" type="boolean" value="false" -->
+<!-- TemplateParam name="If Intriguing Cases" type="boolean" value="false" -->
+<!-- TemplateParam name="If Predicting the Future" type="boolean" value="false" -->
+<!-- TemplateParam name="Home Page Pic" type="boolean" value="false" -->
 </head>
 
 <body>
@@ -25,12 +31,45 @@
 </table>
         </div>
         
+        
         <div class="content"><!-- TemplateBeginEditable name="Content" -->Content<!-- TemplateEndEditable -->
         </div>
         
-        <div class="footer">
-        </div>
-        
-	</div>
+        <div class="secondarynav">
+      <!-- TemplateBeginIf cond="_document['If What Defines a Cult?']" -->
+      <ul>
+        <li><a href="../What Defines a Cult/Characteristics.html">Characteristics</a></li>
+        <li><a href="../What Defines a Cult/Common Misconceptions.html">Common Misconceptions</a></li>
+      </ul>
+      <!-- TemplateEndIf --><!-- TemplateBeginIf cond="_document['If Different Types of Cults']" -->
+	  <ul>
+	    <li><a href="../Different Types of Cults/Violent.html">Violent</a></li>
+	    <li><a href="../Different Types of Cults/Non-violent.html">Non-violent</a></li>
+	    <li><a href="../Different Types of Cults/Religious.html">Religious</a></li>
+	    <li><a href="../Different Types of Cults/Political.html">Political</a></li>
+	    </ul>
+<!-- TemplateEndIf -->
+	  <!-- TemplateBeginIf cond="_document['If Media Portrayal']" -->
+	  <ul>
+	    <li><a href="../Media Portrayal/Entertainment.html">Entertainment</a></li>
+	    <li><a href="../Media Portrayal/News.html">News</a></li>
+	    </ul>
+<!-- TemplateEndIf -->
+	  <!-- TemplateBeginIf cond="_document['If Intriguing Cases']" -->
+	  <ul>
+	    <li><a href="../Intriguing Cases/The Manson Family.html">The Manson Family</a></li>
+	    <li><a href="../Intriguing Cases/Jonestown.html">Jonestown</a></li>
+	    <li><a href="../Intriguing Cases/The Occult.html">The Occult</a></li>
+	    <li><a href="../Intriguing Cases/Catholic Church.html">The Catholic Church</a></li>
+	    </ul>
+<!-- TemplateEndIf -->
+	  <!-- TemplateBeginIf cond="_document['If Predicting the Future']" -->
+	  <ul>
+	    <li><a href="../Predicting the Future/Looking Ahead.html">Looking Ahead</a></li>
+	    <li><a href="../Predicting the Future/Opinions and Theories.html">Opinions and Theories</a></li>
+	    </ul>
+<!-- TemplateEndIf --><!-- TemplateBeginIf cond="_document['Home Page Pic']" --><img src="../images/creepy-face-paint.jpg" width="225" height="600" alt="creepy" /><!-- TemplateEndIf --> </div>
+      
+    </div>
 </body>
 </html>
