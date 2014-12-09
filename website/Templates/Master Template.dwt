@@ -20,11 +20,11 @@
 <body>
 	<div class="wrapper"> <table width="950">
   <tr>
-    <td><!-- TemplateBeginIf cond="_document['home banner']" --><img src="../images/dark-us-flag-banner.jpg" width="950" height="200" alt="dark flag" /><!-- TemplateEndIf --></td>
+    <td><!-- TemplateBeginIf cond="_document['home banner']" --><img src="../images/dark-us-flag-banner.jpg" width="1300" height="200" alt="dark flag" /><!-- TemplateEndIf --></td>
   </tr>
 </table>
     	<div class="navigation">
-  <table>
+  <table width="1300" align="center" cellspacing="20">
   <tr>
     <td><a href="../index.html">Home</a></td>
     <td><a href="../What Defines a Cult/index.html">What Defines a Cult?</a></td>
